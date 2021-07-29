@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+</html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculater.css">
+    <script src="https://kit.fontawesome.com/61d639b384.js" crossorigin="anonymous"></script>
+   
+<title>Calculater</title>
+</head>
+<body>
+<div class="calculater">
+<input type="text" id="display">
+<div class="keys">
+    <div class="row">
+        <button value="C" onclick="clearResult()">C</button>
+        <button value="x" onclick="deleteChar()" ><i class="fas fa-backspace"></i></button>
+    <button value="&#247" onclick="number('&#247')">&#247;</button>
+    <button value="&#215" onclick="number('&#215')">&#215;</button>
+    </div>
+    <div class="row">
+        <button value="7" onclick="number('7')">7</button>
+        <button value="8" onclick="number('8')" >8</button>
+        <button value="9" onclick="number('9')">9</button>
+        <button value="&#43" onclick="number('&#43')">&#43;</button>
+        
+        </div>
+        <div class="row">
+            <button value="4" onclick="number('4')">4</button>
+            <button value="5"onclick="number('5')">5</button>
+            <button value="6"onclick="number('6')">6</button>
+            <button value="&#8722" onclick="number('&#8722')">&#8722;</button>
+            </div>
+            <div class="row">
+                <button value="1"onclick="number('1')">1</button>
+            <button value="2"onclick="number('2')">2</button>
+            <button value="3" onclick="number('3')">3</button>
+                <button value="=" onclick="result()">=</button>
+                </div>
+                <div class="row">
+                    <button value="0"onclick="number('0')">0</button>
+                <button value="00" onclick="number('00')">00</button>
+                <button value="000" onclick="number('000')">000</button>
+                <button value="." onclick="number('.')">.</button>
+                    
+                    </div>
+</div>
+</div>
+</body>
+<script  src="caculater.js"></script>
+</html>
