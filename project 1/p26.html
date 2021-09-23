@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>Fruits</title>
+<style>
+body{
+background-color:lightgray;
+border:6px solid orange;
+}
+#myImage{
+margin-left:450px;
+margin-top:90px;
+border:6px double black;
+width:400px;
+height:400px;
+padding:10px;
+}
+button{
+margin-top:30px;
+margin-left:11px;
+border:6px solid orange;
+background-color:white;
+width:250px;
+height:50px;
+font-size:20px;
+border-radius:20px;
+}
+button:hover{
+color:green;
+font-size:25px;
+}
+</style>
+</head>
+<body>
+<img id="myImage" src="fruit.png"><br>
+<button onclick="document.getElementById('myImage').src='kiwi.png'">KIWI</button>
+<button onclick="document.getElementById('myImage').src='watermelon.png'">WATERMELON</button>
+<button onclick="document.getElementById('myImage').src='custard-apple.png'">CUSTARD-APPLE</button>
+<button onclick="document.getElementById('myImage').src='papaya.png'">PAPAYA</button>
+<button onclick="document.getElementById('myImage').src='strawberry.png'">STRAWBERRY</button>
+</body>
+</html>
